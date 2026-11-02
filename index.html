@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Urtubia Abogados | Estudio jurídico</title>
+  <meta name="description" content="Urtubia Abogados: asesoría y representación legal en materias civiles, de familia, laborales, penales, comerciales e inmobiliarias.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio">
+        <img src="assets/logo.png" alt="Emblema de Urtubia Abogados" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-name">URTUBIA</span>
+          <span class="brand-sub">ABOGADOS</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-principal" aria-label="Abrir menú">
+        <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+
+      <nav id="nav-principal" class="nav" aria-label="Principal">
+        <a href="#inicio">Inicio</a>
+        <a href="#areas">Áreas de práctica</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto">Contacto</a>
+        <a class="btn btn-line nav-phone" href="tel:+56974353455">+56 9 7435 3455</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Portada con formulario -->
+    <section id="inicio" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow eyebrow-light">Estudio jurídico</p>
+          <h1>Respaldo legal serio para las decisiones que importan.</h1>
+          <p class="hero-lead">Le explicamos su situación con claridad, le mostramos sus alternativas y lo acompañamos en cada etapa de su caso.</p>
+          <div class="hero-actions">
+            <a class="btn btn-gold" href="#consulta">Solicitar una consulta</a>
+            <a class="btn btn-line" href="https://wa.me/56974353455" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+          </div>
+        </div>
+
+        <form id="consulta" class="contact-form">
+          <div>
+            <h2>Cuéntenos su caso</h2>
+            <p class="form-note">Su información se trata de forma confidencial.</p>
+          </div>
+          <label>Nombre
+            <input type="text" name="nombre" autocomplete="name" required>
+          </label>
+          <label>Teléfono o correo
+            <input type="text" name="contacto" required>
+          </label>
+          <label>Materia
+            <select name="materia" required>
+              <option value="">Seleccione una opción</option>
+              <option>Civil</option>
+              <option>Familia</option>
+              <option>Laboral</option>
+              <option>Penal</option>
+              <option>Comercial y empresas</option>
+              <option>Inmobiliario</option>
+              <option>Otra</option>
+            </select>
+          </label>
+          <label>Breve descripción
+            <textarea name="mensaje" rows="3" required></textarea>
+          </label>
+          <button class="btn btn-navy" type="submit">Enviar consulta</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Compromisos -->
+    <section class="commitments" aria-label="Nuestros compromisos">
+      <div class="container commitments-grid">
+        <div>
+          <h2>Trato directo</h2>
+          <p>Usted sabe qué abogado lleva su caso y cómo contactarlo.</p>
+        </div>
+        <div>
+          <h2>Lenguaje claro</h2>
+          <p>Explicamos cada paso sin tecnicismos innecesarios.</p>
+        </div>
+        <div>
+          <h2>Honorarios informados</h2>
+          <p>Conocerá el valor de nuestro trabajo antes de comenzar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Áreas de práctica -->
+    <section id="areas" class="section">
+      <div class="container">
+        <p class="eyebrow">Áreas de práctica</p>
+        <h2 class="section-title section-title-narrow">Asesoría y representación en las materias que más afectan a personas y empresas.</h2>
+        <div class="areas-grid">
+          <article class="area">
+            <h3>Derecho civil</h3>
+            <p>Contratos, cobranzas, indemnizaciones, herencias y juicios civiles.</p>
+          </article>
+          <article class="area">
+            <h3>Derecho de familia</h3>
+            <p>Divorcios, pensión de alimentos, cuidado personal y relación directa y regular.</p>
+          </article>
+          <article class="area">
+            <h3>Derecho laboral</h3>
+            <p>Despidos, tutela de derechos, finiquitos y asesoría a empleadores.</p>
+          </article>
+          <article class="area">
+            <h3>Derecho penal</h3>
+            <p>Defensa y representación de víctimas e imputados durante todo el proceso.</p>
+          </article>
+          <article class="area">
+            <h3>Comercial y empresas</h3>
+            <p>Constitución de sociedades, contratos comerciales y asesoría permanente.</p>
+          </article>
+          <article class="area">
+            <h3>Derecho inmobiliario</h3>
+            <p>Compraventas, estudio de títulos, arriendos y regularización de propiedades.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- El estudio -->
+    <section class="section about">
+      <div class="container about-inner">
+        <div class="about-logo">
+          <img src="assets/logo.png" alt="Emblema de Urtubia Abogados: escudo con espada, laureles y las iniciales U y A">
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow">El estudio</p>
+          <h2 class="section-title">Un equipo dirigido por José Miguel Urtubia.</h2>
+          <p>Urtubia Abogados reúne a profesionales de distintas áreas del derecho para abordar cada caso con una mirada completa y un responsable claro.</p>
+          <p>Antes de recomendar un camino, estudiamos los antecedentes y le presentamos sus opciones, con sus riesgos y plazos, para que usted decida con información.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Equipo -->
+    <section id="equipo" class="section">
+      <div class="container">
+        <p class="eyebrow">Equipo</p>
+        <h2 class="section-title">Quiénes lo acompañarán</h2>
+
+        <article class="lead-lawyer">
+          <div class="portrait portrait-lead" aria-hidden="true">JMU</div>
+          <div class="lead-lawyer-copy">
+            <p class="lawyer-role">Socio fundador</p>
+            <h3>José Miguel Urtubia</h3>
+            <p>Dirige el estudio y supervisa la estrategia de los casos junto a cada abogado del equipo.</p>
+            <p class="muted">[Trayectoria, estudios y experiencia por confirmar]</p>
+            <a class="lawyer-mail" href="mailto:josemiguelurtubia@gmail.com">josemiguelurtubia@gmail.com</a>
+          </div>
+        </article>
+
+        <div class="team-grid">
+          <article class="lawyer">
+            <div class="portrait" aria-hidden="true">CF</div>
+            <h3>Catalina Fuentes Rojas</h3>
+            <p>Socia · Familia y civil</p>
+          </article>
+          <article class="lawyer">
+            <div class="portrait" aria-hidden="true">AV</div>
+            <h3>Andrés Valenzuela Soto</h3>
+            <p>Abogado · Laboral</p>
+          </article>
+          <article class="lawyer">
+            <div class="portrait" aria-hidden="true">FM</div>
+            <h3>Francisca Morales Díaz</h3>
+            <p>Abogada · Penal</p>
+          </article>
+          <article class="lawyer">
+            <div class="portrait" aria-hidden="true">TH</div>
+            <h3>Tomás Herrera Lagos</h3>
+            <p>Abogado · Comercial e inmobiliario</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <h2>Hablemos de su caso</h2>
+          <p>Escríbanos o llámenos. Revisaremos su consulta y le indicaremos los siguientes pasos.</p>
+        </div>
+        <div class="contact-list">
+          <a href="tel:+56974353455">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.500 19.500 0 0 1-6-6A19.800 19.800 0 0 1 2.100 4.200 2 2 0 0 1 4.100 2h3a2 2 0 0 1 2 1.700c.1 1 .4 1.900.7 2.800a2 2 0 0 1-.5 2.100L8.100 9.900a16 16 0 0 0 6 6l1.300-1.300a2 2 0 0 1 2.100-.4c.9.300 1.800.6 2.800.7a2 2 0 0 1 1.700 2z"/></svg>
+            +56 9 7435 3455
+          </a>
+          <a href="https://wa.me/56974353455" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 11.500a8.400 8.400 0 0 1-12.400 7.400L3 21l2.100-5.600A8.500 8.500 0 1 1 21 11.500z"/></svg>
+            WhatsApp
+          </a>
+          <a href="mailto:josemiguelurtubia@gmail.com">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg>
+            josemiguelurtubia@gmail.com
+          </a>
+          <p>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            [Dirección de la oficina, ciudad]
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="year">2026</span> Urtubia Abogados</span>
+      <span>La información de este sitio es general y no constituye asesoría legal.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
